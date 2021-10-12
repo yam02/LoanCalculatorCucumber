@@ -1,0 +1,13 @@
+1.	What other tests would you suggest could be written? You do not need to write them out in detail or code them.
+- Verify the estimate by editing the data in fields, with clicking on the Start Over button.
+- Calculate the estimate for other fields in Your Details section.
+
+2.	If this test was part of a much larger test set, how would you speed it up?
+- Use the test as a Background, so that it doesnot need to execute again
+- Store the estimated result for further steps if required.
+
+3.	Sometimes UI tests can fail unpredictably. For example, the page may not have fully loaded before test automation
+ attempts to click a button on a webpage. How would you improve reliability of these tests?
+- Using wait along with Expected Conditions, the explicit wait, before performing the operation.
+- Using stable locators like id, name etc.
+- Using the API to make calls for the extra steps and verifying only the necessary step in UI.
